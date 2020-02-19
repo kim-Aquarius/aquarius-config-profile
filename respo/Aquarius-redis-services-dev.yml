@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: Aquarius-redis-services
+  redis:
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
+    sentinel:
+      master: mymaster
+      nodes: 129.204.128.62:26379, 129.204.128.62:26380, 129.204.128.62:26381
+
+server:
+  port: 8602
+
+
+
