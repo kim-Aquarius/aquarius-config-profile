@@ -15,10 +15,6 @@ spring:
 server:
   port: 8502
 
-ribbon:
-  eureka:
-    enabled: true
-
 logging:
   level:
     com: debug
