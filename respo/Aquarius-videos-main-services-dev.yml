@@ -1,6 +1,6 @@
 spring:
   application:
-    name: aquarius-user-main-services
+    name: aquarius-videos-main-services
 
 server:
   port: 8501
