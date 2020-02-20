@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: aquarius-user-main-services
+
+server:
+  port: 8501
+
+logging:
+  level:
+    com: debug
