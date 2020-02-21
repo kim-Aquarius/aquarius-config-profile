@@ -9,6 +9,10 @@ zuul:
     api-a:
       path: /aquarius/web/**
       serviceId: Aquarius-home-web
+      sensitive-headers:
+      custom-sensitive-headers: true
     api-b:
       path: /aquarius/api/**
       serviceId: aquarius-sso-services
+      sensitive-headers:
+      custom-sensitive-headers: true
