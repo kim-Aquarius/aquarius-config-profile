@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: hello-spring-cloud-zuul
+
+server:
+  port: 8769
+zuul:
+  routes:
+    api-a:
+      path: /aquarius/web/**
+      serviceId: Aquarius-home-web
+    api-b:
+      path: /aquarius/api/**
+      serviceId: aquarius-sso-services
