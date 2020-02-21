@@ -13,6 +13,3 @@ zuul:
     api-b:
       path: /aquarius/api/**
       serviceId: aquarius-sso-services
-    api-c:
-      path: /aquarius/api/**
-      serviceId: aquarius-user-main-services
