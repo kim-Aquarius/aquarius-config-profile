@@ -15,7 +15,9 @@ spring:
 server:
   port: 8502
 
-
 logging:
   level:
     com: debug
+ribbon:
+  ReadTimeout: 6000
+  ConnectTimeout: 6000
