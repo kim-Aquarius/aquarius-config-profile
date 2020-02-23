@@ -13,3 +13,7 @@ zuul:
     api-b:
       path: /aquarius/api/**
       serviceId: aquarius-sso-services
+ribbon:
+  ReadTimeout: 6000
+  ConnectTimeout: 6000
+
