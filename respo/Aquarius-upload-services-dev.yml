@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: aquarius-upload-services
+
+server:
+  port: 8505
+
+
+
