@@ -7,13 +7,9 @@ spring:
     encoding: UTF-8
     servlet:
       content-type: text/html
-  servlet:
-    multipart:
-      max-request-size: 2500MB
-      file-size-threshold: 2000MB
+
 
 server:
   port: 8601
-
 
 
