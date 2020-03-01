@@ -3,8 +3,9 @@ spring:
     name: aquarius-upload-services
   servlet:
     multipart:
-      max-request-size: 2500MB
-      file-size-threshold: 2000MB
+      enabled: true
+      max-request-size: 25000000000
+      file-size-threshold: 2500000000
 
 server:
   port: 8505
