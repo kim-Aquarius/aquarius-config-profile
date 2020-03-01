@@ -11,7 +11,7 @@ spring:
     sentinel:
       master: mymaster
       nodes: 129.204.128.62:26379, 129.204.128.62:26380, 129.204.128.62:26381
-    timeout: 6000
+    timeout: 12000
 server:
   port: 8503
 
