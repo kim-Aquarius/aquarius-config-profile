@@ -12,5 +12,5 @@ tencentinfo:
   bucketNames:
     avatarbucketName: avatars-1257722515
     videobucketName: videos-1257722515
-    mypictures: mypictures-1257722515
+    mypicturesbucketName: mypictures-1257722515
 
