@@ -2,17 +2,19 @@ spring:
   application:
     name: aquarius-redis-services
   redis:
+    host: localhost
+    port: 6379
     lettuce:
       pool:
         max-active: 8
         max-idle: 8
         max-wait: -1ms
         min-idle: 0
-    sentinel:
-      master: mymaster
-      nodes: 129.204.128.62:26379, 129.204.128.62:26380, 129.204.128.62:26381
+    #sentinel:
+     # master: mymaster
+     # nodes: 129.204.128.62:26379, 129.204.128.62:26380, 129.204.128.62:26381
     timeout: 12000
-    password: 123456
+    #password: 123456
 server:
   port: 8503
 
